@@ -1,0 +1,16 @@
+.add-task {
+	margin: 10px 0px;
+	display: flex;
+	justify-content: end;
+	&_button {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	&_text {
+		color: teal;
+		font-size: 20px;
+		margin-left: 10px;
+	}
+}

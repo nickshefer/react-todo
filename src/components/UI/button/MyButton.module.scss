@@ -1,0 +1,12 @@
+.btn {
+	padding: 8px 12px;
+	background: transparent;
+	border: 1px solid teal;
+	color: teal;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		color: #fff;
+		background: teal;
+	}
+}

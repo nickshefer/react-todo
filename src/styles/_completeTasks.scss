@@ -1,0 +1,25 @@
+.complete-tasks {
+	margin-top: 20px;
+	&_block {
+		border: 1px solid teal;
+		border-radius: 12px;
+		padding: 0px 15px;
+	}
+}
+.complete-task {
+	&:not(:last-child) {
+		border-bottom: 1px dashed gray;
+	}
+	padding: 5px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&_icon {
+	}
+	&_text {
+		flex: 1 1 auto;
+		font-size: 20px;
+		line-height: 24px;
+		margin-left: 10px;
+	}
+}

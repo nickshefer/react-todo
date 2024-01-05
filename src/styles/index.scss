@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import '_header';
+@import '_tasks';
+@import '_addTask';
+@import '_taskItem';
+@import '_completeTasks';
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1,
+h2 {
+	margin: 0;
+}
+.h2-title {
+	text-align: center;
+}
+.complete-btn {
+	cursor: pointer;
+	color: grey;
+	transition: all 0.1s ease-in-out !important;
+	&:hover {
+		color: teal;
+		transform: scale(1.1);
+	}
+}
+.remove-btn {
+	cursor: pointer;
+	color: grey;
+	transition: all 0.1s ease-in-out !important;
+	&:hover {
+		color: rgb(236, 71, 71);
+		transform: scale(1.1);
+	}
+}
+.task-form_input {
+	padding: 5px 0px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #000;
+	&.error {
+		border-bottom: 1px solid rgb(236, 71, 71);
+	}
+}

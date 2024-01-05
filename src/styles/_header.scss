@@ -1,0 +1,10 @@
+.header {
+	padding: 10px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid teal;
+	&_logo {
+		font-size: 32px;
+	}
+}
